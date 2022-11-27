@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+body {text-align: center;
+padding: 0px 0px 0px 0px} 
+  
+html {
+background: url(main_background.jpg) no-repeat center center;
+
+min-height: 100%;
+background-size: cover;
+
+} 
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.my_col{
+    position: relative;
+    padding: 10px 20px 30px 40px;
+}
+button{
+    background-image: none; 
+    background: transparent;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    font-size:25px;
+    font-weight:bold;;
+    padding:10px 22px; 
+    border-radius:12px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 350px;
+    height: 100px;
+}
+button:hover{
+    background:#ffffff;
+    color:black;
+    border:3px solid black;
+    transition: all 0.2s ease;
+}
+.text{
+    color: #ffffff;
+    font-family: arial;
+}
+.head{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: arial;
+}
+
+body a{
+    display: inline-block;
+    vertical-align: middle;
+    width: 89px;
+    height: 29px; 
+    padding: 0px;
+    float:left
+   }
+

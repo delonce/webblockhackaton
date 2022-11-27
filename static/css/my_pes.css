@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+body {text-align: center; overflow: hidden;
+width: 100%; padding: 0px 0px 0px 0px; color: white; font-family: Arial, Helvetica, sans-serif;} 
+
+body a{
+  display: inline-block;
+  vertical-align: middle;
+  width: 89px;
+  height: 29px; 
+  padding: 0px;
+  float:left
+ }
+
+html {
+background: url(main_background.jpg) no-repeat center center;
+
+min-height: 100%;
+background-size: cover;
+
+} 
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.My person {
+  float: left;
+  width: 70%;
+}
+
+.My person img {
+  float: left;
+  width: 30%;
+}
+
+@media (max-width: 767px) {
+  .My person, .My person img{
+    float: none;
+    width: 100%;
+  }
+}
+

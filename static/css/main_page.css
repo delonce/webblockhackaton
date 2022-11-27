@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+body {text-align: center; overflow: hidden;
+width: 100%; padding: 0px 0px 0px 0px; font-family: Arial, Helvetica, sans-serif;} 
+  
+html {
+background: url(main_background.jpg) no-repeat center center;
+
+min-height: 100%;
+background-size: cover;
+
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+}
+.menu{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu li{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 0px 0px 40px;
+}
+.menu a{
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: arial;
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.45s ease;
+}
+.menu h1{
+    vertical-align: middle;
+    font-family: arial;
+    font-size: 40px;
+    color: #fff;
+    margin: 0px 80px 0px 40px;
+    font-weight: bolder;
+}
+.menu a:hover{
+    color: #E0FFFF;
+}
+
+.help {
+    color: white;
+    font-size: larger;
+    padding: 10%;
+    font-size: 30px;
+}
+
+.ahelp{
+    display: inline-block;
+    vertical-align: middle;
+    width: 89px;
+    height: 29px; 
+    padding: 0px;
+    float:left
+   }
+
+.main_text {
+    color: white;
+    padding-top: 11%;
+    padding-left: 110px;
+    font-size: 25px;
+}

@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+body {
+    text-align: center;
+    overflow: hidden;
+    width: 100%; padding: 0px 0px 0px 0px;
+    color: #fff;
+    font-family: arial;
+    font-weight: bolder;
+}
+
+body a{
+    display: inline-block;
+    vertical-align: middle;
+    width: 89px;
+    height: 29px; 
+    padding: 0px;
+    float:left
+   }
+
+html {
+    background: url(main_background.jpg) no-repeat center center;
+    min-height: 100%;
+    background-size: cover;
+} 
+
+.header {
+    left: 15%;
+    position: absolute;
+}
+
+.huge input{
+    font-size:22px;
+    font-weight:bold;
+    color:#000000;
+}
+.huge{
+    bottom: 35px ;
+    text-align: center;
+    font-size: 22px
+}
+.huge value{
+    font-size: 40px;
+}
+button{
+    background-image: none; 
+    background: transparent;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    font-size:25px;
+    font-weight:bold;;
+    padding:10px 22px; 
+    border-radius:12px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 350px;
+    height: 100px;
+}
+button:hover{
+    background:#ffffff;
+    color:black;
+    border:3px solid black;
+    transition: all 0.2s ease;
+}
+

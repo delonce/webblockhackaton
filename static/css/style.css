@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body {text-align: center; overflow: hidden;
+width: 100%; padding: 0px 0px 0px 0px} 
+  
+html {
+background: url(Background.jpg) no-repeat center center;
+
+min-height: 100%;
+background-size: cover;
+
+} 
+
+h1 { font-family:Akzidenz-Grotesk Pro; 
+    font-size: 57px; 
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 49.48%, rgba(255, 255, 255, 0.48) 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+
+p { font-size: 16px; font-family:Akzidenz-Grotesk Pro;
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.48) 49.48%, rgba(255, 255, 255, 0.32) 100%);
+display: inline-block;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 0px; margin-bottom: 24px;  
+}
+
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.56) 0.01%, rgba(255, 255, 255, 0.8) 20.83%, rgba(255, 255, 255, 0.9) 49.48%, rgba(255, 255, 255, 0.8) 79.17%, rgba(255, 255, 255, 0.56) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding: 8px 16px;
+
+}
+
+.center1 {
+    margin: auto;
+}
+
+.row {
+    position: absolute;
+    top: 30%;
+}
+
+.icons {
+    position: absolute;
+    left: 140%;
+    top: 30px;
+}
+.icons a img{background: white;}
+
+
